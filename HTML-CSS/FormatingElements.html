@@ -5,13 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      /* Selectors */
+      /* * {
+        background-color: chartreuse;
+      } */
+      body {
+        background-color: cornflowerblue;
+      }
+      p {
+        background-color: aqua;
+      }
+      span {
+        color: red;
+      }
+      #firstPara {
+        color: blue;
+      }
+      .firstParagraph {
+        background-color: blueviolet;
+      }
+    </style>
   </head>
   <body>
-    <p>
+    <p class="firstParagraph">
       In <strong>publishing</strong> and <del>graphic</del> design, Lorem ipsum
       is a placeholder text <sub>commonly</sub> <sup>used</sup> to demonstrate
-      the visual form of a document or a typeface without relying on meaningful
-      content. Lorem ipsum
+      the visual form of a
+      <span id="firstPara">document or a typeface without</span> relying on
+      meaningful content. Lorem ipsum
+    </p>
+    <p>
+      the visual form of a
+      <span style="border: 2px solid">document or a typeface</span> without
+      relying on meaningful content. Lorem ipsum
     </p>
   </body>
 </html>
