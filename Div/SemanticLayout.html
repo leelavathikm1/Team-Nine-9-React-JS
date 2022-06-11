@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        border: 2px solid;
+      }
+      header {
+        border: 2px solid;
+        text-align: center;
+        margin: 5px;
+        height: 40px;
+      }
+      nav {
+        border: 2px solid black;
+        margin: 5px;
+        text-align: center;
+        background: blue;
+        color: white;
+      }
+      li {
+        display: inline;
+        margin-right: 35px;
+      }
+      div#parent {
+        overflow: auto;
+      }
+      div#child1 {
+        width: 400px;
+        float: left;
+        margin-left: 5px;
+      }
+      section {
+        border: 2px solid;
+        height: 95px;
+        text-align: center;
+      }
+      article {
+        height: 95px;
+        text-align: center;
+        border: 2px solid;
+        margin-top: 5px;
+      }
+      aside {
+        border: 2px solid;
+        width: 300px;
+        float: right;
+        height: 200px;
+        margin-right: 5px;
+      }
+      footer {
+        border: 2px solid;
+        margin: 5px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>Header</header>
+      <nav>
+        <ul>
+          <li>Andhra</li>
+          <li>Telangana</li>
+          <li>Sports</li>
+          <li>Vasundara</li>
+          <li>International</li>
+          <li>Cinema</li>
+        </ul>
+      </nav>
+      <div id="parent">
+        <div id="child1">
+          <section>Section</section>
+          <article>Article</article>
+        </div>
+        <aside>Aside</aside>
+      </div>
+      <footer>Footer</footer>
+    </div>
+  </body>
+</html>
