@@ -1,0 +1,52 @@
+div#headSection {
+    background: #817878;
+}
+header {
+    margin: 0 auto;
+    width: 900px;
+    overflow: auto;
+}
+div#logoSection {
+    width: 250px;
+    float: left;
+    margin-top: 10px;
+}
+h1 {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+nav {
+    width: 500px;
+    float: right;
+    background: #3f3232;
+    margin: 20px 0;
+    color: white;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+}
+div#imagesection {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#imagesection img {
+    width: 900px;
+    height: 300px;
+}
+div#sectionDivs {
+    width: 900px;
+    margin: 0 auto;
+    overflow: auto;
+    margin-top: 10px;
+}
+.divs {
+    width: 270px;
+    border: 2px solid;
+    height: 230px;
+    float: left;
+    margin-right: 20px;
+}
