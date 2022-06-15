@@ -1,3 +1,6 @@
+body{
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
 div#headSection {
     background: #817878;
 }
@@ -44,9 +47,121 @@ div#sectionDivs {
     margin-top: 10px;
 }
 .divs {
+    width: 272px;
+    /* border: 2px solid; */
+    /* height: 230px; */
+    float: left;
+    margin-right: 39px;
+}
+figure {
+    margin-left: 0;
+    border: 1px solid;
+    width: 265px;
+}
+figure img {
+    width: 255px;
+    padding: 4px;
+    height: 180px;
+}
+figcaption {
+    overflow: auto;
+}
+span {
+    float: right;
+}
+figcaption span a {
+    color: orange;
+    text-decoration: none;
+    font-size: 13px;
+}
+.div3 {
     width: 270px;
-    border: 2px solid;
+  
+    float: right;
     height: 230px;
+}
+div#parent2 {
+    width: 900px;
+    margin: 0 auto;
+    overflow: auto;
+    margin-top: 10px;
+}
+article {
+    width: 445px;
+    float: left;
+}
+article p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: gray;
+}
+article p a {
+    text-decoration: none;
+    color: orange;
+}
+span a {
+    color: orange;
+    font-size: 13px;
+    text-decoration: none;
+}
+aside {
+    float: right;
+}
+aside img {
+    border: 1px solid;
+    padding: 5px;
+    margin-top: 20px;
+}
+div#parent3 {
+    background: gray;
+}
+#parent3 #sectionDivs {
+    width: 900px;
+    margin: 0 auto;
+    overflow: auto;
+    margin-top: 10px;
+}
+div#parent3 {
+    background: gray;
+}
+#parent3 #sectionDivs {
+    width: 900px;
+    margin: 0 auto;
+    overflow: auto;
+    margin-top: 10px;
+}
+section {
+    width: 205px;
     float: left;
     margin-right: 20px;
+}
+#sectionDivs section ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+#sectionDivs section ul li {
+    line-height: 2;
+    border-bottom: 1px solid;
+}
+#sectionDivs section ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: orange;
+}
+div#footerSection {
+    background: black;
+    color: white;
+    height: 40px;
+    padding-top: 20px;
+}
+footer {
+    width: 900px;
+    margin: 0 auto;
+    overflow: auto;
+}
+p#footLeftPara {
+    float: left;
+}
+p#footrightPara {
+    float: right;
 }
