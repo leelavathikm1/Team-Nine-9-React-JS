@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p::first-letter {
+        color: red;
+        font-size: 40px;
+      }
+      p::first-line {
+        /* text-transform: uppercase; */
+        font-variant: small-caps;
+        color: blue;
+      }
+      ::selection {
+        background-color: aqua;
+        color: rgb(51, 178, 85);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- What are Pseudo-Elements?
+        A CSS pseudo-element is used to style specified parts of an element.
+        Style the first letter, or line, of an element
+        Insert content before, or after, the content of an element 
+    -->
+    <!-- Syntex
+        selector::pseudo-element {
+        property: value;
+    }
+    p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+    }
+     Selector	Example	Example description
+    ::after	p::after	Insert something after the content of each <p> element
+    ::before	p::before	Insert something before the content of each <p> element
+    ::first-letter	p::first-letter	Selects the first letter of each <p> element
+    ::first-line	p::first-line	Selects the first line of each <p> element
+    ::marker	::marker	Selects the markers of list items
+    ::selection	p::selection	Selects the portion of an element that is selected by a user
+    -->
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </p>
+  </body>
+</html>
